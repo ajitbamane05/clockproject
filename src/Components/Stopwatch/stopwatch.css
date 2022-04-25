@@ -1,0 +1,22 @@
+.cointainer1{
+    height: 100vh;
+    width: 150vh;
+    background-color: rgb(240, 113, 202);
+    text-align: center;
+    border:2px solid black;
+}
+.facevalue1{
+    font:25px;
+    margin-bottom: 100px;
+}
+.clocktype1{
+    font:30px;
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+.circle{
+    height: 120px;
+    width: 120px;
+    border-radius: 100%;
+    background-color: aquamarine;
+}
