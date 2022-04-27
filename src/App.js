@@ -30,12 +30,11 @@ function App() {
        
       <Stopwatch className="stopwatch" face="Stop Watch"/>
       }
-      <br/>
        <div className="buttons">
-          <div>
+          <div className="cbuttons">
             <Button className="clock" name="Clock" click={clock1}/>
           </div>
-          <div>
+          <div className="cbuttons">
           <Button className="clock" name="Stop Watch" click={watch} />
           </div>
        </div>
