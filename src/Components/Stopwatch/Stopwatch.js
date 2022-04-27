@@ -32,6 +32,7 @@ export default function Stopwatch(props) {
     setTimerOn(false);
   }
   const reset= ()=>{
+    setTimerOn(false);
     setTime(0);
    
   }
@@ -39,7 +40,7 @@ export default function Stopwatch(props) {
     <div>
           <div className="cointainer1">
             <div className="facevalus1">
-                <span><h2>{props.face}</h2></span>
+                <span><h1>{props.face}</h1></span>
                 
             </div>
             <div className="facevalus2">
@@ -49,7 +50,7 @@ export default function Stopwatch(props) {
             
             <div >
                 <button className="circle">
-                  <h1 className="facevalue3">
+                  <h1 className="facename">
                     {/* {parseInt(counterValue/3600)}:{parseInt((counterValue/60)%60)}:{counterValue%60} */}
                     <span>{("0"+Math.floor((time/60000)%60)).slice(-2)}:</span>
                     <span>{("0"+Math.floor((time/1000)%60)).slice(-2)}:</span>
