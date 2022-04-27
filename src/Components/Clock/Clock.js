@@ -8,11 +8,11 @@ export default function Clock(props) {
         
         <div className="cointainer">
             <div className="facevalus">
-                <span className="facevalue">{props.face}</span>
+                <span className="facevalue"><h2>{props.face}</h2></span>
             </div>
             
             <div className="clocktype">
-                <span className="clocktype">{props.clocktype}</span>
+                <span className="clocktype"><h1>{props.clocktype}</h1></span>
             </div>
             
         </div>

@@ -1,7 +1,9 @@
 .button {
-    height: 70px;
-    width: 85px;
+    height: 40px;
+    width: 100px;
     font: 30px;
-    background-color: rgb(74, 226, 236);
+    background-color:rgb(49, 47, 45);
+    color: aliceblue;
     margin: 20px;
+    border-radius: 10px;
 }
